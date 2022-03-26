@@ -12,8 +12,10 @@ import `in`.bitlogger.kikstart.utils.Constants
 import `in`.bitlogger.kikstart.utils.GridSpacingItemDecoration
 import android.content.res.Resources
 import android.os.Bundle
+import android.view.Gravity
 import android.widget.Toast
 import androidx.activity.viewModels
+import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -26,11 +28,19 @@ class MainActivity : AppCompatActivity() {
     private lateinit var activityMainActivity: ActivityMainBinding
 
     private val newsVM: NewsVM by viewModels()
+    private lateinit var actionableDrawer: ActionBarDrawerToggle
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         activityMainActivity = ActivityMainBinding.inflate(layoutInflater)
         setContentView(activityMainActivity.root)
+
+        actionableDrawer = ActionBarDrawerToggle(this, activityMainActivity.navDrawer, R.string.nav_open, R.string.nav_close)
+        activityMainActivity.navDrawer.addDrawerListener(actionableDrawer)
+        actionableDrawer.syncState()
+        activityMainActivity.toolbar.toolbarProfile.setOnClickListener {
+            activityMainActivity.navDrawer.openDrawer(Gravity.LEFT)
+        }
 
         //Set Dynamic Layout
         setConstraint()

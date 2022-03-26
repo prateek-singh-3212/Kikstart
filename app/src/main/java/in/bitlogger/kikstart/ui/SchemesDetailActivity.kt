@@ -3,11 +3,13 @@ package `in`.bitlogger.kikstart.ui
 import `in`.bitlogger.kikstart.databinding.ActivitySchemesDetailBinding
 import `in`.bitlogger.kikstart.db.model.SchemesModel
 import `in`.bitlogger.kikstart.utils.Constants
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
 import com.bumptech.glide.Glide
+
 
 class SchemesDetailActivity : AppCompatActivity() {
     private lateinit var schemesDetailBinding: ActivitySchemesDetailBinding
@@ -30,7 +32,9 @@ class SchemesDetailActivity : AppCompatActivity() {
         Glide.with(this).load(data.image.toUri()).into(schemesDetailBinding.schemesDetailImage)
 
         schemesDetailBinding.schemesDetailApplyNow.setOnClickListener {
-            Toast.makeText(this, "Comming Soon", Toast.LENGTH_SHORT).show()
+            val i = Intent(Intent.ACTION_VIEW)
+            i.data = Uri.parse("https://www.lendingkart.com/application?from=product&content&CEversion=ZT=mudra-loan/")
+            startActivity(i)
         }
     }
 }

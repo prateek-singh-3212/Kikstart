@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Kikstart</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="we_are_a_group_of_tech_teams_and_this_is_our_one_stop_platform_for_budding_entrepreneurs_for_overall_support_it_is_an_integrated_platform_for_guiding_aspiring_entrepreneurs_idea_nurturing_validating_connecting_with_incubators_extending_mentoring_and_handholding_support_creating_financial_and_marketing_linkages_and_complying_with_legal_and_statutory_compliances_for_starting_a_business_this_single_window_platform_for_entrepreneurs_will_bring_all_the_stakeholders_under_one_umbrella">We are a group of tech teams, and this is our One-Stop Platform for budding entrepreneurs for Overall Support. it is an integrated platform for guiding aspiring entrepreneurs, idea nurturing/validating, connecting with incubators, extending mentoring and handholding support, creating financial and marketing linkages and complying with legal and statutory compliances for starting a business. This single window platform for entrepreneurs will bring all the stakeholders under one umbrella</string>
 </resources>

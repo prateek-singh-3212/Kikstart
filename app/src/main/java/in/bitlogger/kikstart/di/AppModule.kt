@@ -82,6 +82,18 @@ class AppModule {
         return counsellors.create(CounsellingApiInterface::class.java)
     }
 
+    @Provides
+    @Singleton
+    fun incubatorApiInterface(): IncubationApiInterface {
+        val incubator = Retrofit.Builder()
+            .baseUrl("https://incubators-sih.herokuapp.com/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .client(interceptor())
+            .build()
+
+        return incubator.create(IncubationApiInterface::class.java)
+    }
+
     private fun interceptor(): OkHttpClient {
         val interceptor = HttpLoggingInterceptor()
         interceptor.level = HttpLoggingInterceptor.Level.BODY

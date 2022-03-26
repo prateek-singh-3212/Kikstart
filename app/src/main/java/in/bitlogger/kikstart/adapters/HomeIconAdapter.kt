@@ -2,10 +2,7 @@ package `in`.bitlogger.kikstart.adapters
 
 import `in`.bitlogger.kikstart.R
 import `in`.bitlogger.kikstart.db.model.HomeIcon
-import `in`.bitlogger.kikstart.ui.CommingSoon
-import `in`.bitlogger.kikstart.ui.CounsellorsListActivity
-import `in`.bitlogger.kikstart.ui.CoursesActivity
-import `in`.bitlogger.kikstart.ui.SchemesActivity
+import `in`.bitlogger.kikstart.ui.*
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
@@ -29,7 +26,6 @@ class HomeIconAdapter(private val data: Array<HomeIcon>) :
     override fun onBindViewHolder(holder: Viewholder, position: Int) {
         holder.itemView.apply {
             findViewById<ImageView>(R.id.icon_image).setOnClickListener {
-                Toast.makeText(holder.itemView.context, "Coming Soon", Toast.LENGTH_SHORT).show()
                 when (position) {
                     0 -> {
                         val intent = Intent(holder.itemView.context, CounsellorsListActivity::class.java)
@@ -48,11 +44,19 @@ class HomeIconAdapter(private val data: Array<HomeIcon>) :
                         holder.itemView.context.startActivity(intent)
                     }
                     4 -> {
-                        val intent = Intent(holder.itemView.context, CommingSoon::class.java)
+                        val intent = Intent(holder.itemView.context, IncubatorActivity::class.java)
                         holder.itemView.context.startActivity(intent)
                     }
                     5 -> {
                         val intent = Intent(holder.itemView.context, CommingSoon::class.java)
+                        holder.itemView.context.startActivity(intent)
+                    }
+                    6 -> {
+                        val intent = Intent(holder.itemView.context, CommingSoon::class.java)
+                        holder.itemView.context.startActivity(intent)
+                    }
+                    7 -> {
+                        val intent = Intent(holder.itemView.context, AboutUs::class.java)
                         holder.itemView.context.startActivity(intent)
                     }
                     else -> {

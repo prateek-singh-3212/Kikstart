@@ -3,30 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.1395" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/drawable/bottom_sheet_holder.xml" value="0.1395" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/drawable/button.xml" value="0.1255" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1255" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/activity_comming_soon.xml" value="0.24375" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/activity_counsellors_list.xml" value="0.2265625" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/activity_course_display.xml" value="0.24375" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/activity_course_player.xml" value="0.2" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/activity_courses.xml" value="0.264" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/activity_login.xml" value="0.2234375" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/activity_schemes.xml" value="0.24375" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/activity_schemes_detail.xml" value="0.264" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/bottom_sheet_home.xml" value="0.2" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/card_counsellor.xml" value="0.2" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/card_courses.xml" value="0.264" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/card_incubation.xml" value="0.24375" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/card_news.xml" value="0.2" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/card_schemes.xml" value="0.24375" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/fragment_sign_up.xml" value="0.1" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/home_icon.xml" value="0.264" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/home_toolbar.xml" value="0.24375" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/listitem.xml" value="0.24375" />
-        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/menu/nav.xml" value="0.24375" />
+        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/drawable/ic_baseline_cake_24.xml" value="0.1" />
+        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/drawable/ic_illustration.xml" value="0.1" />
+        <entry key="..\:/Users/91966/AndroidStudioProjects/Kikstart/app/src/main/res/layout/card_news.xml" value="0.1" />
       </map>
     </option>
   </component>
